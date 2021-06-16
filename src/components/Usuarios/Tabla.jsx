@@ -9,7 +9,7 @@ const Tabla = (props) => {
         <td>{usuario.email}</td>
         <td>{usuario.website}</td>
         <td>
-            <Link to={`/publicaciones/${key}`}>
+            <Link to={`/blog_react_redux/publicaciones/${key}`}>
                 <div className="eye-solid icon"></div>
             </Link>
         </td>

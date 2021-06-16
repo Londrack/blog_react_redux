@@ -55,7 +55,7 @@ class Tareas extends Component {
                     por_usuario[tar_id].title
                 }
                 <button className='m_left'>
-                    <Link to={`/tareas/guardar/${usu_id}/${tar_id}`}> Editar </Link>
+                    <Link to={`/blog_react_redux/tareas/guardar/${usu_id}/${tar_id}`}> Editar </Link>
                 </button>
                 <button onClick={() => eliminar(tar_id)}>
                     Eliminar
@@ -68,7 +68,7 @@ class Tareas extends Component {
         return (
             <div>
                 <button>
-                    <Link to="/tareas/guardar">
+                    <Link to="/blog_react_redux/tareas/guardar">
                         Agregar
                     </Link>
                 </button>

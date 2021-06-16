@@ -89,7 +89,7 @@ class Guardar extends Component {
 		return (
 			<div>
 				{
-					(this.props.regresar) && <Redirect to='/tareas' />
+					(this.props.regresar) && <Redirect to='/blog_react_redux/tareas' />
 				}
 				<h1>Guardar Tarea</h1>
 				Usuario id:
