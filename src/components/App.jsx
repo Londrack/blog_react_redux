@@ -11,11 +11,11 @@ const App = () => (
   <BrowserRouter>
     <Menu />
     <div className="contenedor">
-      <Route exact path='/' component={ Usuarios } />
-      <Route exact path='/tareas' component={ Tareas } />
-      <Route exact path='/publicaciones/:key' component={ Publicaciones} />
-      <Route exact path='/tareas/guardar' component={ TareasGuardar } />
-      <Route exact path='/tareas/guardar/:usu_id/:tar_id' component={ TareasGuardar } />
+      <Route exact path='/blog_react_redux/' component={ Usuarios } />
+      <Route exact path='/blog_react_redux/tareas' component={ Tareas } />
+      <Route exact path='/blog_react_redux/publicaciones/:key' component={ Publicaciones} />
+      <Route exact path='/blog_react_redux/tareas/guardar' component={ TareasGuardar } />
+      <Route exact path='/blog_react_redux/tareas/guardar/:usu_id/:tar_id' component={ TareasGuardar } />
     </div>
   </BrowserRouter>
 )
